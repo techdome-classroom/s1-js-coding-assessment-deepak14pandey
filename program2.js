@@ -41,6 +41,6 @@ function isMatch(message, pattern) {
 }
 
 // Example usage:
-console.log(isMatch("aa", "a"));  // Output: false
+console.log(isMatch("aa", "a"));  
 console.log(isMatch("aa", "*"));  // Output: true
 console.log(isMatch("cb", "?a")); // Output: false
