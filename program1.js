@@ -8,7 +8,7 @@ function countIslands(grid) {
 
   
   function dfs(r, c) {
-      // If out of bounds or the current cell is water ('W') or already visited, return
+      
       if (r < 0 || c < 0 || r >= rows || c >= cols || grid[r][c] === 'W') {
           return;
       }
