@@ -36,7 +36,7 @@ function isMatch(message, pattern) {
       }
   }
 
-  // The result is in dp[m][p]
+ 
   return dp[m][p];
 }
 
