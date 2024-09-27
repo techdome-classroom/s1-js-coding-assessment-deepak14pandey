@@ -20,7 +20,9 @@ const getTotalIsles = function (grid) {
 
 for(let r =0; r< rows; r++){
   for(let c =0; c< cols; c++){
-    if(grid[r][c] ==="L")
+    if(grid[r][c] ==="L"){
+      islandcount++;
+    }
   }
 }
   // w;rite your code here
