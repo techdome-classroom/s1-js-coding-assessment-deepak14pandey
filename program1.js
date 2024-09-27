@@ -10,7 +10,7 @@ const getTotalIsles = function (grid) {
     return;
   }
  }
-
+  grid[r][c] = "W"
   // write your code here
 
 };
