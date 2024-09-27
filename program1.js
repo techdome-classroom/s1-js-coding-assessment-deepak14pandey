@@ -5,6 +5,8 @@ const getTotalIsles = function (grid) {
  const cols = grid[0].length;
  let islandCount = 0;
 
+ function dfs(r, c)
+
   // write your code here
 
 };
