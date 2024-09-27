@@ -6,7 +6,7 @@ function countIslands(grid) {
   const cols = grid[0].length;
   let islandCount = 0;
 
-  // Helper function to perform DFS
+  
   function dfs(r, c) {
       // If out of bounds or the current cell is water ('W') or already visited, return
       if (r < 0 || c < 0 || r >= rows || c >= cols || grid[r][c] === 'W') {
