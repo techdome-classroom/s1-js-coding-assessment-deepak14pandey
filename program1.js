@@ -47,4 +47,4 @@ const grid = [
   ["W","W","W","W","W"],
 ];
 
-console.log(countIslands(grid)); // Output: 1
+console.log(countIslands(grid)); 
