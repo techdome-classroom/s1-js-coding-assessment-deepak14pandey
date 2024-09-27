@@ -40,7 +40,7 @@ function isMatch(message, pattern) {
   return dp[m][p];
 }
 
-// Example usage:
+
 console.log(isMatch("aa", "a"));  
 console.log(isMatch("aa", "*"));  
 console.log(isMatch("cb", "?a")); 
