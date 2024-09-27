@@ -13,7 +13,7 @@ function isMatch(message, pattern) {
   // Create a DP table initialized with false
   const dp = Array(m + 1).fill(false).map(() => Array(p + 1).fill(false));
 
-  // Base case: empty pattern matches empty message
+  
   dp[0][0] = true;
 
   
