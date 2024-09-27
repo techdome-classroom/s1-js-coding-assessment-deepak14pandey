@@ -31,6 +31,8 @@ return islandCount;
 const grid = [
   ["L","L","L","L","W"],
   ["L","L","L","L","W"],
+  ["L","L","L","L","W"],
+  ["L","L","L","L","W"],
 ]
 
 };
