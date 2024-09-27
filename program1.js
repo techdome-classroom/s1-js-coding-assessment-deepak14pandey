@@ -26,6 +26,7 @@ for(let r =0; r< rows; r++){
     }
   }
 } 
+return islandCount;
   // w;rite your code here
 
 };
