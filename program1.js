@@ -30,7 +30,7 @@ function countIslands(grid) {
               
               islandCount++;
               
-              // Use DFS to mark the entire island as visited
+              
               dfs(r, c);
           }
       }
