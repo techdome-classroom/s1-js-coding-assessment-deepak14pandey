@@ -13,7 +13,7 @@ const getTotalIsles = function(grid) {
           return;
       }
 
-      // Mark the current cell as visited by changing 'L' to 'W'
+     
       grid[i][j] = 'W';
 
       // Explore all four possible directions (up, down, left, right)
