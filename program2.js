@@ -10,7 +10,7 @@ function isMatch(message, pattern) {
   const m = message.length;
   const p = pattern.length;
 
-  // Create a DP table initialized with false
+  
   const dp = Array(m + 1).fill(false).map(() => Array(p + 1).fill(false));
 
   
