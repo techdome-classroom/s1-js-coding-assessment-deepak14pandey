@@ -39,7 +39,7 @@ function countIslands(grid) {
   return islandCount;
 }
 
-// Example usage:
+
 const grid = [
   ["L","L","L","L","W"],
   ["L","L","W","L","W"],
