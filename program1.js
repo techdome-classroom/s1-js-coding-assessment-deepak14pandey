@@ -18,8 +18,8 @@ function countIslands(grid) {
 
       
       dfs(r + 1, c); 
-      dfs(r - 1, c); // Up
-      dfs(r, c + 1); // Right
+      dfs(r - 1, c); 
+      dfs(r, c + 1); 
       dfs(r, c - 1); // Left
   }
 
