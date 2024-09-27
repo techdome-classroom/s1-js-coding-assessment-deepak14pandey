@@ -27,7 +27,10 @@ for(let r =0; r< rows; r++){
   }
 } 
 return islandCount;
-}
+ 
+const grid = [
+  ["L"]
+]
 
 };
 
