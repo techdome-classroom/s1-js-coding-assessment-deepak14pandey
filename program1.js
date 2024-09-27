@@ -13,7 +13,7 @@ function countIslands(grid) {
           return;
       }
       
-      // Mark the current landmass as visited by changing it to 'W'
+     
       grid[r][c] = 'W';
 
       
