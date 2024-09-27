@@ -55,7 +55,7 @@ function countIslands(grid) {
       // Mark the current landmass as visited by changing it to 'W'
       grid[r][c] = 'W';
 
-      // Explore all adjacent cells (up, down, left, right)
+      // Explore all adjacent cells (up, down, left,
       dfs(r + 1, c); // Down
       dfs(r - 1, c); // Up
       dfs(r, c + 1); // Right
