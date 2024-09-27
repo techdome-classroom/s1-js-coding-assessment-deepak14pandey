@@ -16,7 +16,7 @@ function isMatch(message, pattern) {
   // Base case: empty pattern matches empty message
   dp[0][0] = true;
 
-  // Handle patterns with '*' at the beginning
+  /
   for (let j = 1; j <= p; j++) {
       if (pattern[j - 1] === '*') {
           dp[0][j] = dp[0][j - 1];
