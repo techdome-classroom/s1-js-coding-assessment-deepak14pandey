@@ -27,7 +27,7 @@ function isMatch(message, pattern) {
   for (let i = 1; i <= m; i++) {
       for (let j = 1; j <= p; j++) {
           if (pattern[j - 1] === '*') {
-              // '*' matches zero or more characters
+              
               dp[i][j] = dp[i][j - 1] || dp[i - 1][j];
           } else if (pattern[j - 1] === '?' || pattern[j - 1] === message[i - 1]) {
               
